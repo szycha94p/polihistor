@@ -1,0 +1,11 @@
+$color-black: #000000;
+$color-white: #fff;
+$color-grey: #777;
+
+html{
+    font-size: 10px;
+}
+#content{
+    display: flex;
+    align-self: start;
+}

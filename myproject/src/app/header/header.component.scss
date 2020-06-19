@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    background-color:black;
+    width: 100vw;
+    height: 14vw;
+     
+        &_logo
+        {   
+            margin-left: 30vw;
+            &_class{
+            height: 100%; 
+            width: auto;
+            }
+
+        }
+  
+
+}
+
+

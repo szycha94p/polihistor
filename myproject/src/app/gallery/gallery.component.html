@@ -1,0 +1,19 @@
+<div class="main">
+    <ng-container *ngFor="let element of elements; let i = index">
+
+        <div class="content" data-toggle="modal" [attr.data-target]="'#exampleModal' + i">
+            <img class="img" [src]="element.elementsrc" alt="">
+            <span class="text">{{element.text}}</span>
+        </div>
+
+        <div class="modal" [attr.id]="'exampleModal' + i" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-dialog-centered">
+                <img style="max-width: 100%; max-height: 100%" [src]="element.elementsrc" alt="">
+            </div>
+        </div>
+
+
+
+    </ng-container>
+</div>

@@ -1,0 +1,40 @@
+:host {
+    height: 100vh;
+    width: 100%
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin: 1rem 2rem 2rem 2rem;
+    color: white;
+    background-color: black;
+    width: 98%;
+    display: flex;
+}
+
+.text {
+    margin-top: .9rem;
+    text-justify: center;
+    font-size: 2vh;
+    margin-left: 4rem;
+    width: 80%;
+}
+
+.content:first-child {
+    margin-top: 2rem;
+}
+
+.content:last-child {
+    margin-bottom: 0rem;
+}
+
+.img {
+    max-width: 15vw;
+    max-height: 15vh;
+    height: 100%;
+    width: 10%;
+}

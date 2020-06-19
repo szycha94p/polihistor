@@ -1,0 +1,13 @@
+<div class="main">
+    <ng-container *ngFor="let element of elements; let i = index">
+
+        <div class="content" data-toggle="modal" [attr.data-target]="'#exampleModal' + i">
+            <img class="img" [src]="element.elementsrc" alt="">
+            <span class="text">{{element.text}}</span>
+        </div>
+
+
+
+
+    </ng-container>
+</div>

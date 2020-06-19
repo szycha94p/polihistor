@@ -1,0 +1,19 @@
+<nav>
+    <ul>
+        <li routerLink=""><span (click)="handleClick()" class="sp">O mnie</span></li>
+        <li routerLink="/galeria"><span (click)="handleClick()" class="sp">Galeria</span></li>
+        <li routerLink="/instrukcje"><span (click)="handleClick()" class="sp">Instrukcje</span></li>
+        <li routerLink="/kontakt"><span (click)="handleClick()" class="sp">Kontakt</span></li>
+        <li id="media-toggler"><span (click)="tooging()" class="sp">Media</span></li>
+
+        <div class="" [ngClass]="{'fadeIn': toogler}">
+            <li class="li">
+                <span class="toogle sp"><img class="icon" src="https://img.icons8.com/fluent/48/000000/facebook-new.png" />Facebook</span>
+            </li>
+            <li class="li"><span class="toogle sp"><img class="icon" src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>Instagram</span></li>
+            <li class="li"><span class="toogle sp"><img class="icon" src="https://img.icons8.com/cute-clipart/64/000000/youtube.png"/>Youtube</span></li>
+        </div>
+
+
+    </ul>
+</nav>
